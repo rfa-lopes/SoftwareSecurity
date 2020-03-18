@@ -1,6 +1,6 @@
 NOTA: Apenas corre utilizando o gdb
 
-<video src="BOF.mp4" width="320" height="200" controls preload></video>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kXfYOLqtfGQ/0.jpg)](https://www.youtube.com/watch?v=kXfYOLqtfGQ)
 
 
 Disable randomization
