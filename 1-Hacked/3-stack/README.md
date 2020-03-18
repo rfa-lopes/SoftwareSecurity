@@ -1,5 +1,7 @@
 NOTA: Apenas corre utilizando o gdb
 
+<video src="BOF.mp4" width="320" height="200" controls preload></video>
+
 
 Disable randomization
 kali@kali:/media/sf_Shared_SegSoft-Kali/Protocolos/3-stack$ cat /proc/sys/kernel/randomize_va_space 
