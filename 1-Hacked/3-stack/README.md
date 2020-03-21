@@ -58,7 +58,8 @@ gef> x/100x 0x00007fffffffdf90 - 32
 ```
 Como podemos ver na imagem seguinte, encontrámos os nossos  32 "A"'s (0x41) na stack, será que encontramos também o endereço de retorno? Terá que conter, como já vimos, o endereço: 0x0000000000401206
 Na imagem seguinte encontramos o nosso target!
-//IMAGEM2
+
+![Image 2](Lib/2.png)
 
 Assim sendo, podemos agora concluir que para escrever o nosso exploit de forma a que corra o nosso vírus, teremos que chegar à posição de retorno e escrever lá um endereço a nosso favor. Para além dos 32 bytes do buffer, temos ainda o $ebp com 8 bytes. sendo os próximos 8 bytes para o endereço de retorno. 
 
@@ -108,4 +109,11 @@ gef> run
 #HACKED
 #...
 ```
-# HACKED!
+# EXTRA!
+
+ No ficheiro exploit.py experimente correr uma shell!
+ 
+ ```python
+#exploit = (buf + ebp + call_virus + virus)
+exploit = (buf + ebp + call_virus + shell)
+ ```
