@@ -111,7 +111,7 @@ gef> run
 ```
 # Video
 
-<video src="https://www.youtube.com/watch?v=kXfYOLqtfGQ" width="320" height="200" controls preload></video>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/kXfYOLqtfGQ/0.jpg)](https://www.youtube.com/watch?v=kXfYOLqtfGQ)
 
 # EXTRA!
 
