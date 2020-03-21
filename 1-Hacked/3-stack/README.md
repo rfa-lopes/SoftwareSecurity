@@ -49,7 +49,8 @@ gef> run
 gef> fin
 ```
 Como se pode ver na imagem seguinte,  o $rip (0x0000000000401206) está a apontar para a posição de memória da função main, de forma a continuar o fluxo de programa normalmente. Vamos tentar perceber em que sitio da memoria este apontador está.
-//IMAGEM 1
+
+![Image 1](Lib/1.png)
 
  Vamos agora ver com mais atenção o conteúdo da stack, utilizando como referencia o $rdi.
  ```bash
