@@ -30,6 +30,7 @@ void foo(char *str, int s)
 }
 ```
 * Causa erro
+
 ```bash
 python -c 'print "A"*8*5' > smasher; ./stack
 ```
@@ -64,6 +65,7 @@ Na imagem seguinte encontramos o nosso target!
 Assim sendo, podemos agora concluir que para escrever o nosso exploit de forma a que corra o nosso vírus, teremos que chegar à posição de retorno e escrever lá um endereço a nosso favor. Para além dos 32 bytes do buffer, temos ainda o $ebp com 8 bytes. sendo os próximos 8 bytes para o endereço de retorno. 
 
 * Compilar virus
+
 Vamos compilar o nosso virus e passá-lo para hexadécimal de forma a ser mais fácil a sua inserção no ficheiro.
 ```bash
 gcc -D_FORTIFY_SOURCE=0 -W -no-pie -fno-stack-protector -z execstack virus.c -o virus
