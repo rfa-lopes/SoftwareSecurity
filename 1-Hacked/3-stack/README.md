@@ -1,5 +1,9 @@
 # Segurança de Software 2020
 
+Autor: Rodrigo Faria Lopes
+Nr: 50435
+Contacto: rfa.lopes@campus.fct.unl.pt
+
 ## 1 - HACKED VIRUS
 ### Descrição
 Ataque por Buffer Overflow a um programa em C que lê ficheiro e escreve o seu conteúdo em memória.
